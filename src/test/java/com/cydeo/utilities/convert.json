@@ -1,0 +1,121 @@
+{
+  "items": [
+    {
+      "employee_id": 103,
+      "first_name": "Alexander",
+      "last_name": "Hunold",
+      "email": "AHUNOLD",
+      "phone_number": "590.423.4567",
+      "hire_date": "2006-01-03T00:00:00Z",
+      "job_id": "IT_PROG",
+      "salary": 9000,
+      "commission_pct": null,
+      "manager_id": 102,
+      "department_id": 60,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://3.89.103.0:1000/ords/hr/employees/103"
+        }
+      ]
+    },
+    {
+      "employee_id": 104,
+      "first_name": "Bruce",
+      "last_name": "Ernst",
+      "email": "BERNST",
+      "phone_number": "590.423.4568",
+      "hire_date": "2007-05-21T00:00:00Z",
+      "job_id": "IT_PROG",
+      "salary": 6000,
+      "commission_pct": null,
+      "manager_id": 103,
+      "department_id": 60,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://3.89.103.0:1000/ords/hr/employees/104"
+        }
+      ]
+    },
+    {
+      "employee_id": 105,
+      "first_name": "David",
+      "last_name": "Austin",
+      "email": "DAUSTIN",
+      "phone_number": "590.423.4569",
+      "hire_date": "2005-06-25T00:00:00Z",
+      "job_id": "IT_PROG",
+      "salary": 4800,
+      "commission_pct": null,
+      "manager_id": 103,
+      "department_id": 60,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://3.89.103.0:1000/ords/hr/employees/105"
+        }
+      ]
+    },
+    {
+      "employee_id": 106,
+      "first_name": "Valli",
+      "last_name": "Pataballa",
+      "email": "VPATABAL",
+      "phone_number": "590.423.4560",
+      "hire_date": "2006-02-05T00:00:00Z",
+      "job_id": "IT_PROG",
+      "salary": 4800,
+      "commission_pct": null,
+      "manager_id": 103,
+      "department_id": 60,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://3.89.103.0:1000/ords/hr/employees/106"
+        }
+      ]
+    },
+    {
+      "employee_id": 107,
+      "first_name": "Diana",
+      "last_name": "Lorentz",
+      "email": "DLORENTZ",
+      "phone_number": "590.423.5567",
+      "hire_date": "2007-02-07T00:00:00Z",
+      "job_id": "IT_PROG",
+      "salary": 4200,
+      "commission_pct": null,
+      "manager_id": 103,
+      "department_id": 60,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://3.89.103.0:1000/ords/hr/employees/107"
+        }
+      ]
+    }
+  ],
+  "hasMore": false,
+  "limit": 25,
+  "offset": 0,
+  "count": 5,
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://3.89.103.0:1000/ords/hr/employees/?q=%7B%22job_id%22:%22IT_PROG%22%7D"
+    },
+    {
+      "rel": "edit",
+      "href": "http://3.89.103.0:1000/ords/hr/employees/?q=%7B%22job_id%22:%22IT_PROG%22%7D"
+    },
+    {
+      "rel": "describedby",
+      "href": "http://3.89.103.0:1000/ords/hr/metadata-catalog/employees/"
+    },
+    {
+      "rel": "first",
+      "href": "http://3.89.103.0:1000/ords/hr/employees/?q=%7B%22job_id%22:%22IT_PROG%22%7D"
+    }
+  ]
+}
